@@ -10,7 +10,7 @@ namespace :webpacker do
 
     if ENV['SKIP_WEBPACK']
       $stdout.puts "Skip Webpack."
-      exit!
+      exit
     end
 
     $stdout.puts "[Webpacker] Compiling assets 🎉"
